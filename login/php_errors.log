@@ -1,0 +1,8 @@
+[31-Jan-2017 03:23:08 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/login/sqltest/sqlinjection.php on line 51
+[31-Jan-2017 03:23:08 UTC] PHP Stack trace:
+[31-Jan-2017 03:23:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/sqltest/sqlinjection.php:0
+[31-Jan-2017 03:23:08 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/login/sqltest/sqlinjection.php:51
+[31-Jan-2017 03:25:10 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/login/sqltest/sqlinjection.php on line 51
+[31-Jan-2017 03:25:10 UTC] PHP Stack trace:
+[31-Jan-2017 03:25:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/login/sqltest/sqlinjection.php:0
+[31-Jan-2017 03:25:10 UTC] PHP   2. mysql_num_rows() /home/ubuntu/workspace/login/sqltest/sqlinjection.php:51
