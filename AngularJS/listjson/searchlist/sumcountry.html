@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+    <script src="angular.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="../../bootstrap.min.js" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="text-center">List of Country</h1>
+    <div ng-app="myApp" ng-controller="customerCtrl">
+    <label>Search (Country):<input type="text" ng-model="query.Country"/></label>
+    
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="temp in filteredCountries">
+                    <td>{{temp.Name}}</td>
+                    <td>{{temp.City}}</td>
+                    <td>{{temp.Country}}</td>
+                </tr>
+            </tbody>
+        </table>
+        Number of country: {{myData.length}}<br>
+  		Number of filtered Country: {{filteredCountries.length}}</p>
+    </div>
+    <script>
+    	//add code here
+    	var app = angular.module('myApp',[]);
+    	app.controller('customerCtrl', function($scope,$http,$filter){
+    	    
+    		$http.get("data.json").then(function(response){ 	//or call php file directly
+    			$scope.myData = response.data.records;  		//myData can change to any value
+    		});	
+    		
+    		$scope.filteredCountries = [];
+    		$scope.query = '';
+    		$scope.$watch('query.Country',function(){                   // watch like event that focus that query was change or not
+    			  $scope.filteredCountries = $filter('filter')($scope.myData,$scope.query);  
+    		}); 
+    		 
+    	});
+    </script>
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
