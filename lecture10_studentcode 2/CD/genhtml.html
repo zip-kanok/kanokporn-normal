@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <script type="text/javascript">
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET","cd_catalog.xml",false);
+            xmlhttp.send();
+            
+            var xmlDoc = xmlhttp.responseXML;
+            document.write("<table border=1>");
+            var x = xmlDoc.getElementsByTagName("CD");
+            for(var i=0;i<x.length;i++){
+                document.write("<tr><td>");
+                document.write(x[i].getElementsByTagName('TITLE')[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName('ARTIST')[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName('COUNTRY')[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName('COMPANY')[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName('PRICE')[0].childNodes[0].nodeValue);
+                document.write("</td><td>");
+                document.write(x[i].getElementsByTagName('YEAR')[0].childNodes[0].nodeValue);
+                document.write("</td></tr>");
+
+            }
+            
+            document.write("</table>");
+        </script>
+        
+        
+    </body>
+</html>

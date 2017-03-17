@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	function get() {
+		$.post('data.php', {name:$("#form").find("input[n­ame=name]").val()},		$
+		function (output) {
+		   $("#age").html(output).show();
+		}};
+	}
+</script>
+</head>
+
+<body>
+<p>
+<form name="form">
+	<input typr="text" name="name">
+		<input type="button" value ="Get" onClick="get();">
+</form>
+<div id="age"></div>
+</p>
+</body>
+</html>
+

@@ -1,0 +1,112 @@
+[14-Feb-2017 03:20:06 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:20:06 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:06 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:20:06 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:20:06 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:06 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:20:06 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:20:06 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:06 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:20:17 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:20:17 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:20:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:20:17 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:17 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:20:17 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:20:17 UTC] PHP Stack trace:
+[14-Feb-2017 03:20:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:20:17 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:22:09 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:22:09 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:09 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:22:09 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:22:09 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:09 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:22:09 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:22:09 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:09 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:22:11 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:22:11 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:11 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:22:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:22:11 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:11 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:22:11 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:22:11 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:11 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:22:12 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:22:12 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:12 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:22:12 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:22:12 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:12 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:22:12 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:22:12 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:12 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:22:13 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:22:13 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:13 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:22:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:22:13 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:13 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:22:13 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:22:13 UTC] PHP Stack trace:
+[14-Feb-2017 03:22:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:22:13 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:24:23 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:24:23 UTC] PHP Stack trace:
+[14-Feb-2017 03:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:24:23 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:24:23 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:24:23 UTC] PHP Stack trace:
+[14-Feb-2017 03:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:24:23 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:24:23 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:24:23 UTC] PHP Stack trace:
+[14-Feb-2017 03:24:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:24:23 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:25:18 UTC] PHP Warning:  mysql_query() expects parameter 1 to be string, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 13
+[14-Feb-2017 03:25:18 UTC] PHP Stack trace:
+[14-Feb-2017 03:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:25:18 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:13
+[14-Feb-2017 03:25:18 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:25:18 UTC] PHP Stack trace:
+[14-Feb-2017 03:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:25:18 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:25:18 UTC] PHP Warning:  mysql_close() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 35
+[14-Feb-2017 03:25:18 UTC] PHP Stack trace:
+[14-Feb-2017 03:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:25:18 UTC] PHP   2. mysql_close() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:35
+[14-Feb-2017 03:26:32 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:26:32 UTC] PHP Stack trace:
+[14-Feb-2017 03:26:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:26:32 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:26:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:26:46 UTC] PHP Stack trace:
+[14-Feb-2017 03:26:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:26:46 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:27:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 24
+[14-Feb-2017 03:27:56 UTC] PHP Stack trace:
+[14-Feb-2017 03:27:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:27:56 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:24
+[14-Feb-2017 03:28:48 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php on line 23
+[14-Feb-2017 03:28:48 UTC] PHP Stack trace:
+[14-Feb-2017 03:28:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:0
+[14-Feb-2017 03:28:48 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/lecture10_studentcode 2/user/getuser.php:23

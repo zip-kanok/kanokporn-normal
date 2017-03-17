@@ -1,0 +1,9 @@
+<?php
+echo "thisis a test";
+/*mysql_connect("localhost","root","");
+$name = mysql_real_escape_string($_POST['name']);
+$age = mysql_query("SELECT age FROM person.ajaxdb WHERE name='$firstname'");
+$age_numrows = mysql_numrows($age);
+
+echo $age_num_rows*/
+?>
