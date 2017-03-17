@@ -1,0 +1,74 @@
+[07-Feb-2017 04:29:26 UTC] PHP Warning:  require_once(includes/functions.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php on line 5
+[07-Feb-2017 04:29:26 UTC] PHP Stack trace:
+[07-Feb-2017 04:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php:0
+[07-Feb-2017 04:29:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'includes/functions.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php on line 5
+[07-Feb-2017 04:29:26 UTC] PHP Stack trace:
+[07-Feb-2017 04:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php:0
+[07-Feb-2017 04:30:07 UTC] PHP Warning:  require_once(includes/functions.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php on line 5
+[07-Feb-2017 04:30:07 UTC] PHP Stack trace:
+[07-Feb-2017 04:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php:0
+[07-Feb-2017 04:30:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'includes/functions.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php on line 5
+[07-Feb-2017 04:30:07 UTC] PHP Stack trace:
+[07-Feb-2017 04:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/index.php:0
+[18-Feb-2017 07:40:51 UTC] PHP Parse error:  syntax error, unexpected '?>', expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 9
+[18-Feb-2017 07:48:10 UTC] PHP Warning:  require_once(/include/config.inc.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 2
+[18-Feb-2017 07:48:10 UTC] PHP Stack trace:
+[18-Feb-2017 07:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 07:48:10 UTC] PHP Fatal error:  require_once(): Failed opening required '/include/config.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 2
+[18-Feb-2017 07:48:10 UTC] PHP Stack trace:
+[18-Feb-2017 07:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:16:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 546
+[18-Feb-2017 08:27:11 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:27:11 UTC] PHP Stack trace:
+[18-Feb-2017 08:27:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:28:03 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:28:03 UTC] PHP Stack trace:
+[18-Feb-2017 08:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:28:05 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:28:05 UTC] PHP Stack trace:
+[18-Feb-2017 08:28:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:31:32 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:31:32 UTC] PHP Stack trace:
+[18-Feb-2017 08:31:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:32:35 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:32:35 UTC] PHP Stack trace:
+[18-Feb-2017 08:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:32:37 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:32:37 UTC] PHP Stack trace:
+[18-Feb-2017 08:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:32:38 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php on line 401
+[18-Feb-2017 08:32:38 UTC] PHP Stack trace:
+[18-Feb-2017 08:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/person.php:0
+[18-Feb-2017 08:53:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 10
+[18-Feb-2017 08:54:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:54:07 UTC] PHP Stack trace:
+[18-Feb-2017 08:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:54:07 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:54:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:54:07 UTC] PHP Stack trace:
+[18-Feb-2017 08:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:54:07 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:54:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:54:07 UTC] PHP Stack trace:
+[18-Feb-2017 08:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:54:07 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:54:07 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:54:07 UTC] PHP Stack trace:
+[18-Feb-2017 08:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:54:07 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:56:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:56:39 UTC] PHP Stack trace:
+[18-Feb-2017 08:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:56:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:56:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:56:39 UTC] PHP Stack trace:
+[18-Feb-2017 08:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:56:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:56:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:56:39 UTC] PHP Stack trace:
+[18-Feb-2017 08:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:56:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
+[18-Feb-2017 08:56:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php on line 9
+[18-Feb-2017 08:56:39 UTC] PHP Stack trace:
+[18-Feb-2017 08:56:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:0
+[18-Feb-2017 08:56:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/exercise4/admin2_template/pages/cardinfojson.php:9
