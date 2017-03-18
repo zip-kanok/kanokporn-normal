@@ -1,0 +1,47 @@
+ <?xml-stylesheet type='text/xsl' href='person.xsl'?>
+ <response>
+ 	<people>
+ 		<person>
+ 			<firstname>Bob</firstname>
+ 			<lastname>Cat</lastname>
+ 			<address>
+ 				<city>BK</city>
+ 				<country>Thaliand</country>
+ 				<telephone>444-4444</telephone>
+ 				<email>bob.cat@person.com</email>
+ 			</address>
+ 		</person>
+ 		<person>
+ 			<firstname>John</firstname>
+ 			<lastname>Doe</lastname>
+ 			<address>
+ 				<city>LA</city>
+ 				<country>USA</country>
+ 				<telephone>111-1111</telephone>
+ 				<email>john.doe@person.com</email>
+ 			</address>
+ 		</person>
+ 		<person>
+ 			<firstname>Jane</firstname>
+ 			<lastname>Doe</lastname>
+ 			<address>
+ 				<city>NY</city>
+ 				<country>USA</country>
+ 				<telephone>222-2222</telephone>
+ 				<email>jane.doe@person.com</email>
+ 			</address>
+ 		</person>
+ 		<person>
+ 			<firstname>Mary</firstname>
+ 			<lastname>Lamb</lastname>
+ 			<address>
+ 				<city>BK</city>
+ 				<country>Thailand</country>
+ 				<telephone>333-3333</telephone>
+ 				<email>mary.lamb@person.com</email>
+ 			</address>
+ 		</person>
+ 	</people>
+ </response>
+
+ 

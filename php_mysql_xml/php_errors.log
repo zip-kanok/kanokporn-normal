@@ -1,0 +1,11 @@
+[23-Jan-2017 04:17:20 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/php_mysql_xml/mysql/users.php on line 22
+[23-Jan-2017 04:17:20 UTC] PHP Stack trace:
+[23-Jan-2017 04:17:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_mysql_xml/mysql/users.php:0
+[23-Jan-2017 04:32:06 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/php_mysql_xml/person/person2.php on line 24
+[23-Jan-2017 04:32:06 UTC] PHP Stack trace:
+[23-Jan-2017 04:32:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_mysql_xml/person/person2.php:0
+[23-Jan-2017 04:32:06 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/php_mysql_xml/person/person2.php:24
+[23-Jan-2017 04:35:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/ubuntu/workspace/php_mysql_xml/person/person3.php on line 7
+[23-Jan-2017 04:35:32 UTC] PHP Stack trace:
+[23-Jan-2017 04:35:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php_mysql_xml/person/person3.php:0
+[23-Jan-2017 04:35:32 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/php_mysql_xml/person/person3.php:7
